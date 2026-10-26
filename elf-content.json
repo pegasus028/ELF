@@ -1,0 +1,2357 @@
+{
+ "meta": {
+  "version": "1.0.0",
+  "course": "EN33207",
+  "issued": "2026-10-27",
+  "app": "ELF Studio",
+  "dataStatus": "WS-D Module 2 data, merged 2026-10-26"
+ },
+ "settings": {
+  "lessonMinutes": 50,
+  "ratingScale": [
+   {
+    "value": 1,
+    "label": "Not yet"
+   },
+   {
+    "value": 2,
+    "label": "Developing"
+   },
+   {
+    "value": 3,
+    "label": "Good"
+   },
+   {
+    "value": 4,
+    "label": "Excellent"
+   }
+  ],
+  "pitchClock": {
+   "pitch": 60,
+   "rate": 60,
+   "rotations": 4
+  }
+ },
+ "groups": [
+  {
+   "id": 1,
+   "profession": "business",
+   "label": "Business",
+   "size": 3
+  },
+  {
+   "id": 2,
+   "profession": "business",
+   "label": "Business",
+   "size": 3
+  },
+  {
+   "id": 3,
+   "profession": "medicine",
+   "label": "Doctor",
+   "size": 3
+  },
+  {
+   "id": 4,
+   "profession": "medicine",
+   "label": "Doctor",
+   "size": 3
+  },
+  {
+   "id": 5,
+   "profession": "dentistry",
+   "label": "Dentist",
+   "size": 3
+  },
+  {
+   "id": 6,
+   "profession": "veterinary",
+   "label": "Veterinary science",
+   "size": 3
+  },
+  {
+   "id": 7,
+   "profession": "engineering",
+   "label": "Engineering",
+   "size": 3
+  },
+  {
+   "id": 8,
+   "profession": "accounting",
+   "label": "Accounting",
+   "size": 3
+  },
+  {
+   "id": 9,
+   "profession": "design",
+   "label": "Designer",
+   "size": 3
+  },
+  {
+   "id": 10,
+   "profession": "humanities",
+   "label": "Humanities",
+   "size": 3
+  }
+ ],
+ "professions": {
+  "business": {
+   "label": "Business",
+   "mmiLabel": "Business & Management",
+   "words": [
+    "stakeholder",
+    "profit margin",
+    "cash flow",
+    "target market",
+    "corporate social responsibility (CSR)",
+    "supply chain",
+    "return on investment (ROI)",
+    "scalability",
+    "pivot",
+    "SME",
+    "weigh up the trade-offs",
+    "long-term sustainability",
+    "take ownership of",
+    "a calculated risk",
+    "be held accountable"
+   ],
+   "taboo": {}
+  },
+  "medicine": {
+   "label": "Doctor",
+   "mmiLabel": "Medicine (Doctor)",
+   "words": [
+    "triage",
+    "informed consent",
+    "confidentiality",
+    "antimicrobial resistance (AMR)",
+    "Universal Coverage Scheme",
+    "palliative care",
+    "comorbidity",
+    "community hospital",
+    "evidence-based medicine",
+    "burnout",
+    "weigh up the risks and benefits",
+    "duty of care",
+    "act in the patient's best interests",
+    "escalate a concern",
+    "acknowledge my limitations"
+   ],
+   "taboo": {}
+  },
+  "dentistry": {
+   "label": "Dentist",
+   "mmiLabel": "Dentistry",
+   "words": [
+    "dental caries",
+    "periodontal disease",
+    "fluoride varnish",
+    "fissure sealant",
+    "root canal treatment",
+    "orthodontics",
+    "enamel",
+    "dental anxiety",
+    "dental therapist",
+    "overtreatment",
+    "manual dexterity",
+    "put someone at ease",
+    "strike a balance between",
+    "prevention is better than cure",
+    "a conflict of interest"
+   ],
+   "taboo": {}
+  },
+  "veterinary": {
+   "label": "Veterinary science",
+   "mmiLabel": "Veterinary Science",
+   "words": [
+    "zoonosis (pl. zoonoses)",
+    "rabies",
+    "post-exposure prophylaxis (PEP)",
+    "euthanasia",
+    "neutering (sterilisation)",
+    "biosecurity",
+    "withdrawal period",
+    "livestock",
+    "exotic pet",
+    "the Five Freedoms",
+    "One Health",
+    "quality of life",
+    "compassion fatigue",
+    "be torn between",
+    "a duty to the public"
+   ],
+   "taboo": {}
+  },
+  "engineering": {
+   "label": "Engineering",
+   "mmiLabel": "Engineering",
+   "words": [
+    "structural integrity",
+    "load-bearing",
+    "safety factor",
+    "feasibility study",
+    "prototype",
+    "specification",
+    "drainage capacity",
+    "particulate matter (PM2.5)",
+    "renewable energy",
+    "life-cycle cost",
+    "mitigate the risk",
+    "root cause",
+    "fit for purpose",
+    "compromise on safety",
+    "unintended consequences"
+   ],
+   "taboo": {}
+  },
+  "accounting": {
+   "label": "Accounting",
+   "mmiLabel": "Accounting & Finance",
+   "words": [
+    "audit",
+    "auditor independence",
+    "financial statements",
+    "revenue recognition",
+    "internal controls",
+    "materiality",
+    "tax deduction",
+    "VAT (value added tax)",
+    "embezzlement",
+    "liquidity",
+    "professional scepticism",
+    "a conflict of interest",
+    "cut corners",
+    "uphold integrity",
+    "public trust"
+   ],
+   "taboo": {}
+  },
+  "design": {
+   "label": "Designer",
+   "mmiLabel": "Design",
+   "words": [
+    "design brief",
+    "user-centred design",
+    "prototype",
+    "iteration",
+    "accessibility",
+    "intellectual property (IP)",
+    "derivative work",
+    "sustainability",
+    "brand identity",
+    "mood board",
+    "strike a balance between",
+    "creative integrity",
+    "take something on board",
+    "trade-off",
+    "with the end user in mind"
+   ],
+   "taboo": {}
+  },
+  "humanities": {
+   "label": "Humanities",
+   "mmiLabel": "Humanities",
+   "words": [
+    "liberal arts",
+    "primary source",
+    "close reading",
+    "interdisciplinary",
+    "localisation",
+    "cultural heritage",
+    "repatriation",
+    "rhetoric",
+    "discourse",
+    "source criticism",
+    "transferable skills",
+    "put something into context",
+    "a nuanced view",
+    "engage with multiple perspectives",
+    "lost in translation"
+   ],
+   "taboo": {}
+  }
+ },
+ "rooms": {
+  "evidenceAudit": {
+   "title": "Evidence Audit",
+   "lesson": "L09",
+   "intro": "List 8 experiences. For each one, say your own role, when, the scale (a number) and how someone else could check it.",
+   "rows": 8,
+   "fields": [
+    {
+     "key": "experience",
+     "label": "Experience",
+     "hint": "What did you do? Start with a verb.",
+     "example": "Volunteered at a dog shelter"
+    },
+    {
+     "key": "role",
+     "label": "Role",
+     "hint": "What was your own part? Not the team's.",
+     "example": "Weekend volunteer: feeding, walking, adoption-day helper"
+    },
+    {
+     "key": "when",
+     "label": "When",
+     "hint": "Dates or duration.",
+     "example": "Every Saturday, Jan 2025 – Jun 2026"
+    },
+    {
+     "key": "scale",
+     "label": "Scale",
+     "hint": "A number: people, hours, times, money, size.",
+     "example": "35 dogs prepared for adoption; about 300 hours"
+    },
+    {
+     "key": "evidenceType",
+     "label": "Evidence type",
+     "hint": "How could someone check it?",
+     "example": ""
+    },
+    {
+     "key": "link",
+     "label": "Link or location",
+     "hint": "Where is the proof? Paste a link or say where it is.",
+     "example": "Drive folder 'Shelter' / certificate in my portfolio"
+    }
+   ],
+   "evidenceTypes": [
+    {
+     "key": "certificate",
+     "label": "Certificate",
+     "description": "A certificate, award letter or official record with your name, the organiser and a date.",
+     "example": "Thai Red Cross first-aid certificate, 16 hours, March 2026"
+    },
+    {
+     "key": "link",
+     "label": "Link",
+     "description": "A public web page, video or post that shows the work and your part in it.",
+     "example": "School Facebook post about the stall, with your name in the caption"
+    },
+    {
+     "key": "photo",
+     "label": "Photo",
+     "description": "A dated photo of you doing the activity or of the result.",
+     "example": "Photo of you at the shelter with the volunteer badge, July 2025"
+    },
+    {
+     "key": "witness",
+     "label": "Witness",
+     "description": "A named adult who saw your work and will confirm it (teacher, supervisor, organiser).",
+     "example": "Khun Somsri, shelter manager, phone and email on file"
+    },
+    {
+     "key": "product",
+     "label": "Product",
+     "description": "Something you made that can be shown: a model, report, app, design, video or booklet.",
+     "example": "The 15-page farm biosecurity report"
+    },
+    {
+     "key": "none",
+     "label": "None yet",
+     "description": "No proof yet. The claim cannot be checked until you find or create evidence.",
+     "example": "—"
+    }
+   ],
+   "flags": {
+    "unverifiable": {
+     "label": "Unverifiable",
+     "rule": "evidenceType is 'none', or evidenceType is 'link' and the link field is empty",
+     "message": "Nobody can check this yet. Find a certificate, link, photo, witness or product, or leave this experience out."
+    },
+    "noScale": {
+     "label": "No scale",
+     "rule": "scale contains no digit",
+     "message": "Add a number: people, hours, weeks, times, baht, or size."
+    }
+   },
+   "frames": [
+    "I have … since … (still doing it)",
+    "I … in … (finished)",
+    "My own part was …",
+    "You can check this with …"
+   ],
+   "exportHeading": "Evidence audit: 8 experiences",
+   "c1Extension": "Add a 'so what' to each row and rank the 8 by relevance to your target programme."
+  },
+  "lineUpgrader": {
+   "title": "Line Upgrader",
+   "lesson": "L10",
+   "formula": [
+    "Verb",
+    "What",
+    "Scale/Result",
+    "So what"
+   ],
+   "intro": "Rewrite each weak line: start with a verb from the bank, add a number or a duration, and end with a result.",
+   "verbGroups": [
+    {
+     "key": "lead",
+     "label": "Lead and organise",
+     "verbs": [
+      "Led",
+      "Organised",
+      "Coordinated",
+      "Chaired",
+      "Managed",
+      "Directed",
+      "Founded",
+      "Launched",
+      "Captained",
+      "Hosted"
+     ]
+    },
+    {
+     "key": "create",
+     "label": "Create and build",
+     "verbs": [
+      "Designed",
+      "Built",
+      "Created",
+      "Developed",
+      "Wrote",
+      "Produced",
+      "Programmed",
+      "Illustrated",
+      "Composed",
+      "Prototyped"
+     ]
+    },
+    {
+     "key": "improve",
+     "label": "Improve and solve",
+     "verbs": [
+      "Improved",
+      "Reduced",
+      "Increased",
+      "Raised",
+      "Cut",
+      "Fixed",
+      "Streamlined",
+      "Redesigned",
+      "Solved",
+      "Doubled"
+     ]
+    },
+    {
+     "key": "research",
+     "label": "Research and analyse",
+     "verbs": [
+      "Researched",
+      "Analysed",
+      "Surveyed",
+      "Measured",
+      "Tested",
+      "Investigated",
+      "Interviewed",
+      "Tracked",
+      "Compared",
+      "Calculated"
+     ]
+    },
+    {
+     "key": "teach",
+     "label": "Teach and support",
+     "verbs": [
+      "Taught",
+      "Tutored",
+      "Mentored",
+      "Trained",
+      "Coached",
+      "Guided",
+      "Supported",
+      "Assisted",
+      "Volunteered",
+      "Translated"
+     ]
+    },
+    {
+     "key": "communicate",
+     "label": "Communicate and persuade",
+     "verbs": [
+      "Presented",
+      "Pitched",
+      "Negotiated",
+      "Persuaded",
+      "Explained",
+      "Published",
+      "Edited",
+      "Debated",
+      "Represented",
+      "Promoted"
+     ]
+    }
+   ],
+   "verbBank": [
+    "Led",
+    "Organised",
+    "Coordinated",
+    "Chaired",
+    "Managed",
+    "Directed",
+    "Founded",
+    "Launched",
+    "Captained",
+    "Hosted",
+    "Designed",
+    "Built",
+    "Created",
+    "Developed",
+    "Wrote",
+    "Produced",
+    "Programmed",
+    "Illustrated",
+    "Composed",
+    "Prototyped",
+    "Improved",
+    "Reduced",
+    "Increased",
+    "Raised",
+    "Cut",
+    "Fixed",
+    "Streamlined",
+    "Redesigned",
+    "Solved",
+    "Doubled",
+    "Researched",
+    "Analysed",
+    "Surveyed",
+    "Measured",
+    "Tested",
+    "Investigated",
+    "Interviewed",
+    "Tracked",
+    "Compared",
+    "Calculated",
+    "Taught",
+    "Tutored",
+    "Mentored",
+    "Trained",
+    "Coached",
+    "Guided",
+    "Supported",
+    "Assisted",
+    "Volunteered",
+    "Translated",
+    "Presented",
+    "Pitched",
+    "Negotiated",
+    "Persuaded",
+    "Explained",
+    "Published",
+    "Edited",
+    "Debated",
+    "Represented",
+    "Promoted"
+   ],
+   "check": {
+    "verb": "The first word must be a verb from the bank (past form).",
+    "number": "The line must contain a number (digits), e.g. 3, 120, 2025, 6 weeks.",
+    "numberPattern": "\\d",
+    "result": "The line must contain a result clause.",
+    "resultMarkers": [
+     "resulting in",
+     "which",
+     "so that",
+     "leading to",
+     "earning",
+     "helping",
+     "cutting",
+     "raising",
+     "saving",
+     "winning"
+    ]
+   },
+   "feedback": {
+    "verb": "Start with a verb from the bank, e.g. Led, Designed, Tutored.",
+    "number": "Add a number: how many, how long, how much.",
+    "result": "Add a result with one of these: which · resulting in · so that · leading to · earning · helping · cutting · raising · saving · winning. Then say what changed, in at least 3 words (…, which raised 4,000 baht).",
+    "pass": "All three slots found. Now ask: would an admissions reader believe it?"
+   },
+   "peerPrompt": "Would an admissions reader believe it?",
+   "peerRatingScale": [
+    {
+     "value": 1,
+     "label": "Hard to believe"
+    },
+    {
+     "value": 2,
+     "label": "Believable"
+    },
+    {
+     "value": 3,
+     "label": "Convincing"
+    }
+   ],
+   "rounds": 4,
+   "linesPerRound": 5,
+   "maxWords": 25,
+   "maxWordsC1Round4": 18,
+   "lines": [
+    {
+     "id": "wl-01",
+     "profession": "business",
+     "weak": "I was in the school business club.",
+     "model": "Organised 3 pop-up stalls for the school business club in 2025, which raised 18,400 baht for the library fund.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-02",
+     "profession": "business",
+     "weak": "Helped my aunt's shop with online selling.",
+     "model": "Launched a LINE shop for my aunt's dessert business over 4 months, resulting in 120 new regular customers.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-03",
+     "profession": "business",
+     "weak": "Did a business competition.",
+     "model": "Pitched a recycled-uniform start-up to 5 judges at a 2026 youth business contest, earning second place among 42 teams.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-04",
+     "profession": "business",
+     "weak": "Good at managing money for the class trip.",
+     "model": "Managed a 65,000-baht budget for a 3-day class trip for 38 students, which finished 4,200 baht under budget.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-05",
+     "profession": "business",
+     "weak": "Did market research for a café.",
+     "model": "Surveyed 150 students on drink prices for a school café plan, which showed that 35-baht drinks sold best.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-06",
+     "profession": "medicine",
+     "weak": "Volunteered at a hospital.",
+     "model": "Volunteered 60 hours at a community hospital's outpatient desk in 2025, helping about 40 elderly patients a day find the right clinic.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-07",
+     "profession": "medicine",
+     "weak": "Went to a medical camp and did a presentation.",
+     "model": "Presented a dengue fever case to 30 students at a 2-day medical camp, which won the camp's best group presentation.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-08",
+     "profession": "medicine",
+     "weak": "Taught health to kids.",
+     "model": "Taught hand-washing in 6 lessons to 90 Grade 2 pupils, resulting in 81 of them passing the school nurse's hand-washing check.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-09",
+     "profession": "medicine",
+     "weak": "Did a first-aid course.",
+     "model": "Trained 25 classmates in CPR after a 16-hour Red Cross first-aid course, so that every class on our floor has 2 trained responders.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-10",
+     "profession": "medicine",
+     "weak": "Read a lot about antibiotics.",
+     "model": "Surveyed 80 parents in my district over 3 weeks about antibiotic use, which showed that 1 in 4 had bought antibiotics for a cold.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-11",
+     "profession": "dentistry",
+     "weak": "Joined a dental volunteer trip.",
+     "model": "Assisted 2 dentists at a 1-day rural dental camp in Kanchanaburi, helping register and screen 150 children for tooth decay.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-12",
+     "profession": "dentistry",
+     "weak": "Good with my hands.",
+     "model": "Built 12 clay tooth models in 8 weeks for an art elective, which a local dentist now uses to explain fillings to patients.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-13",
+     "profession": "dentistry",
+     "weak": "Did a project on teeth.",
+     "model": "Measured the sugar in 20 school-canteen drinks for a science project, leading to 2 drinks being removed from the menu.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-14",
+     "profession": "dentistry",
+     "weak": "Shadowed a dentist.",
+     "model": "Interviewed 4 dentists during a 5-day clinic placement, which showed me how public and private dental care differ.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-15",
+     "profession": "dentistry",
+     "weak": "Helped kids not be scared of the dentist.",
+     "model": "Designed a 10-page picture book about a first dental visit, which a children's clinic gave to 200 young patients in 2026.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-16",
+     "profession": "veterinary",
+     "weak": "Love animals and help at a shelter.",
+     "model": "Volunteered every Saturday for 18 months at a Bangkok dog shelter, helping prepare 35 dogs for adoption.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-17",
+     "profession": "veterinary",
+     "weak": "Did a project about rabies.",
+     "model": "Produced a 2-minute rabies-awareness video in Thai and English, which reached 4,500 views on the school page in 1 week.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-18",
+     "profession": "veterinary",
+     "weak": "Took care of pets.",
+     "model": "Tracked the weight and diet of 6 shelter cats for 10 weeks, resulting in 2 overweight cats reaching a healthy weight.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-19",
+     "profession": "veterinary",
+     "weak": "Visited a farm.",
+     "model": "Interviewed 3 pig farmers in Ratchaburi about biosecurity on a 2-day field trip, which became our group's 15-page report.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-20",
+     "profession": "veterinary",
+     "weak": "Helped with a neutering campaign.",
+     "model": "Coordinated 12 volunteers at a district neutering day, so that 64 street cats were registered, treated and returned.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-21",
+     "profession": "engineering",
+     "weak": "Robotics club member.",
+     "model": "Programmed the sensors for our 4-person robotics team, which placed 3rd of 28 schools at a 2026 national contest.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-22",
+     "profession": "engineering",
+     "weak": "Made a project about PM2.5.",
+     "model": "Built 5 low-cost PM2.5 sensors and ran them around school for 6 weeks, which showed the gate was worst at 7 a.m.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-23",
+     "profession": "engineering",
+     "weak": "Fixed things at home.",
+     "model": "Redesigned the drainage for my family's 2 shops after the 2025 floods, cutting water entry from 15 cm to under 1 cm.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-24",
+     "profession": "engineering",
+     "weak": "Did a science fair.",
+     "model": "Tested 4 bridge designs made of 200 ice-cream sticks each for a science fair, leading to a design that held 22 kg.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-25",
+     "profession": "engineering",
+     "weak": "Interested in renewable energy.",
+     "model": "Calculated the savings of a rooftop solar plan for our school, which showed a 6-year payback the school board agreed to study.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-26",
+     "profession": "accounting",
+     "weak": "Was treasurer of the student council.",
+     "model": "Tracked 140 income and spending items as student-council treasurer in 2025, which gave the council its first full annual account.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-27",
+     "profession": "accounting",
+     "weak": "Good with numbers.",
+     "model": "Tutored 8 Grade 10 students in mathematics twice a week for 1 term, resulting in all 8 passing the final exam.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-28",
+     "profession": "accounting",
+     "weak": "Helped my family business with tax.",
+     "model": "Organised 12 months of receipts for my mother's online shop, so that her accountant filed the 2025 tax return 3 weeks early.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-29",
+     "profession": "accounting",
+     "weak": "Did a finance course online.",
+     "model": "Analysed the 2025 financial statements of 3 Thai food companies in a 6-week online course, resulting in a 10-slide comparison for my class.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-30",
+     "profession": "accounting",
+     "weak": "Ran a stall.",
+     "model": "Calculated costs and prices for a 2-day charity bakery stall, which made a 46% profit margin and raised 9,800 baht.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-31",
+     "profession": "design",
+     "weak": "Made posters for school.",
+     "model": "Designed 15 posters for the 2026 school sports day, which the school reused on its social media page for 6,000 followers.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-32",
+     "profession": "design",
+     "weak": "I like drawing.",
+     "model": "Illustrated a 24-page children's book on air pollution over 3 months, which the school library printed in 100 copies.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-33",
+     "profession": "design",
+     "weak": "Redesigned a website.",
+     "model": "Redesigned the club sign-up page after testing it with 10 students, cutting sign-up time from 5 minutes to 1.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-34",
+     "profession": "design",
+     "weak": "Did an accessibility project.",
+     "model": "Prototyped 3 large-print menus for a café near school, so that 12 older customers could order without asking staff.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-35",
+     "profession": "design",
+     "weak": "Took part in an art exhibition.",
+     "model": "Created 4 mixed-media pieces from recycled packaging for a 2025 district exhibition, earning 1 of 5 judges' awards.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-36",
+     "profession": "humanities",
+     "weak": "Joined the debate club.",
+     "model": "Debated in 14 rounds for the school English debate team in 2025, which reached the semi-finals of a 32-team Bangkok tournament.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-37",
+     "profession": "humanities",
+     "weak": "Translated things.",
+     "model": "Translated 9 information boards from Thai into English for a local temple, so that foreign visitors could read its history.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-38",
+     "profession": "humanities",
+     "weak": "Wrote for the school magazine.",
+     "model": "Edited 6 issues of the school English magazine as section editor, which grew its readership from 300 to 750 students.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-39",
+     "profession": "humanities",
+     "weak": "Interested in history.",
+     "model": "Interviewed 5 elderly residents about canal life for a 3-month oral-history project, which the district library now keeps.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    },
+    {
+     "id": "wl-40",
+     "profession": "humanities",
+     "weak": "Helped at a museum.",
+     "model": "Guided 20 English tours at a Bangkok museum during the 2026 school holiday, helping about 300 visitors understand the exhibits.",
+     "slots": [
+      "verb",
+      "number",
+      "result"
+     ]
+    }
+   ]
+  },
+  "clicheHunter": {
+   "title": "Cliché Hunter",
+   "lesson": "L11",
+   "intro": "Tap the 10 clichés in this statement. Then rewrite 3 of them with concrete evidence.",
+   "rewritesRequired": 3,
+   "banList": [
+    {
+     "id": "c01",
+     "cliche": "passion / passionate",
+     "example": "I have a passion for… / I am passionate about…",
+     "patterns": [
+      "\\bpassion(s|ate|ately)?\\b"
+     ],
+     "replacement": "Say what you did and how often: 'I have spent every Saturday since May 2025 at the clinic desk.'"
+    },
+    {
+     "id": "c02",
+     "cliche": "ever since I was a child",
+     "example": "Ever since I was a child, I have…",
+     "patterns": [
+      "\\b(ever )?since i was (a )?(child|kid|little|young)\\b"
+     ],
+     "replacement": "Give the date and the event: 'In Grade 9, when my grandmother had a stroke…'"
+    },
+    {
+     "id": "c03",
+     "cliche": "from a young age",
+     "example": "From a young age, I…",
+     "patterns": [
+      "\\bfrom a (very )?young age\\b",
+      "\\bat a young age\\b"
+     ],
+     "replacement": "Name the age and what happened: 'At 13, I took apart our broken fan.'"
+    },
+    {
+     "id": "c04",
+     "cliche": "dream (my dream, dream job, dream university)",
+     "example": "It has always been my dream to…",
+     "patterns": [
+      "\\bdream(s|ed|ing|y)?\\b"
+     ],
+     "replacement": "State the goal plainly: 'I want to train as a dentist and work in a provincial hospital.'"
+    },
+    {
+     "id": "c05",
+     "cliche": "I have always wanted / always been interested",
+     "example": "I have always been interested in…",
+     "patterns": [
+      "\\balways (wanted|been interested|loved|been fascinated|had an interest)\\b"
+     ],
+     "replacement": "Show when the interest started and what you did about it: 'After the 2025 floods, I started measuring…'"
+    },
+    {
+     "id": "c06",
+     "cliche": "broaden my horizons",
+     "example": "This programme will broaden my horizons.",
+     "patterns": [
+      "\\bbroaden(ing)? (my|our|her|their) horizons?\\b"
+     ],
+     "replacement": "Name what you want to learn: 'learn how Australian hospitals train nurses to triage.'"
+    },
+    {
+     "id": "c07",
+     "cliche": "make a difference",
+     "example": "I want to make a difference.",
+     "patterns": [
+      "\\bmake a (real |big |positive )?difference\\b"
+     ],
+     "replacement": "Say who will be better off and how: 'cut waiting times for elderly patients in my district.'"
+    },
+    {
+     "id": "c08",
+     "cliche": "make the world a better place",
+     "example": "…to make the world a better place.",
+     "patterns": [
+      "\\bmake the world a better place\\b",
+      "\\bchange the world\\b"
+     ],
+     "replacement": "Pick one place and one problem: 'reduce plastic waste at Chatuchak market stalls.'"
+    },
+    {
+     "id": "c09",
+     "cliche": "I want to help people",
+     "example": "I want to become a doctor because I want to help people.",
+     "patterns": [
+      "\\bhelp(ing)? (other )?people\\b",
+      "\\bhelp(ing)? others\\b"
+     ],
+     "replacement": "Say which people and what help: 'explain a diagnosis to patients who only speak Isan.'"
+    },
+    {
+     "id": "c10",
+     "cliche": "hard-working",
+     "example": "I am a hard-working student.",
+     "patterns": [
+      "\\bhard[- ]?working\\b"
+     ],
+     "replacement": "Show the effort with a number: 'I rebuilt the prototype 14 times in 6 weeks.'"
+    },
+    {
+     "id": "c11",
+     "cliche": "team player",
+     "example": "I am a team player.",
+     "patterns": [
+      "\\bteam player\\b"
+     ],
+     "replacement": "Say what you did in the team: 'I wrote the code; my two partners built the frame.'"
+    },
+    {
+     "id": "c12",
+     "cliche": "people person",
+     "example": "I am a people person.",
+     "patterns": [
+      "\\bpeople person\\b"
+     ],
+     "replacement": "Give one example of working with people: 'I calmed 30 anxious children before their check-ups.'"
+    },
+    {
+     "id": "c13",
+     "cliche": "strong leadership skills",
+     "example": "I have strong leadership skills.",
+     "patterns": [
+      "\\b(strong|excellent|good) leadership skills\\b"
+     ],
+     "replacement": "Show a time you led: 'I led 6 volunteers and set the weekly rota.'"
+    },
+    {
+     "id": "c14",
+     "cliche": "think outside the box",
+     "example": "I like to think outside the box.",
+     "patterns": [
+      "\\bthink(ing)? outside (of )?the box\\b"
+     ],
+     "replacement": "Describe the unusual idea itself: 'I used ice-cream sticks to test bridge shapes.'"
+    },
+    {
+     "id": "c15",
+     "cliche": "step out of my comfort zone",
+     "example": "This made me step out of my comfort zone.",
+     "patterns": [
+      "\\b(step(ped|ping)? (out of|outside) (my|her|your) )?comfort zone\\b"
+     ],
+     "replacement": "Say what was new and hard: 'I gave my first talk in English to 200 parents.'"
+    },
+    {
+     "id": "c16",
+     "cliche": "give back to society / the community",
+     "example": "I want to give back to society.",
+     "patterns": [
+      "\\bgive back to (the |my |our )?(society|community)\\b"
+     ],
+     "replacement": "Name who benefits and how: 'run free screening days at my old primary school.'"
+    },
+    {
+     "id": "c17",
+     "cliche": "a perfect fit",
+     "example": "This programme is a perfect fit for me.",
+     "patterns": [
+      "\\b(a )?perfect fit\\b"
+     ],
+     "replacement": "Name one feature of the programme and one thing you have done that matches it."
+    },
+    {
+     "id": "c18",
+     "cliche": "world-class / prestigious",
+     "example": "…your prestigious, world-class university.",
+     "patterns": [
+      "\\bworld[- ]class\\b",
+      "\\bprestigious\\b"
+     ],
+     "replacement": "Name the specific feature: 'the year of study at a partner university abroad.'"
+    },
+    {
+     "id": "c19",
+     "cliche": "life-changing",
+     "example": "It was a life-changing experience.",
+     "patterns": [
+      "\\blife[- ]chang(ing|er)\\b"
+     ],
+     "replacement": "Say what changed: 'Afterwards I switched my elective from art to biology.'"
+    },
+    {
+     "id": "c20",
+     "cliche": "eye-opening",
+     "example": "The trip was eye-opening.",
+     "patterns": [
+      "\\beye[- ]open(ing|er)\\b"
+     ],
+     "replacement": "Say what you saw that you had not known: 'I had never seen a dentist work without electricity.'"
+    },
+    {
+     "id": "c21",
+     "cliche": "I learned so much",
+     "example": "I learned so much from this experience.",
+     "patterns": [
+      "\\blearn(ed|t) so much\\b",
+      "\\blearn(ed|t) a lot\\b"
+     ],
+     "replacement": "Name one thing you learned: 'I learned to check a dog's gums for dehydration.'"
+    },
+    {
+     "id": "c22",
+     "cliche": "once-in-a-lifetime / unique opportunity",
+     "example": "It was a once-in-a-lifetime opportunity.",
+     "patterns": [
+      "\\bonce[- ]in[- ]a[- ]lifetime\\b",
+      "\\bunique opportunity\\b"
+     ],
+     "replacement": "Say what the opportunity was: 'a 5-day placement at a district hospital.'"
+    },
+    {
+     "id": "c23",
+     "cliche": "go above and beyond",
+     "example": "I always go above and beyond.",
+     "patterns": [
+      "\\babove and beyond\\b"
+     ],
+     "replacement": "Say what you did beyond the task, with a number: 'I added 2 extra Saturday sessions.'"
+    },
+    {
+     "id": "c24",
+     "cliche": "my journey",
+     "example": "My journey to medicine began…",
+     "patterns": [
+      "\\bjourney\\b"
+     ],
+     "replacement": "Use the event itself: 'My interest in medicine began in a hospital car park in 2024.'"
+    },
+    {
+     "id": "c25",
+     "cliche": "in today's fast-paced world",
+     "example": "In today's fast-paced world, technology…",
+     "patterns": [
+      "\\bin today'?s (fast[- ]paced |modern |changing )?world\\b",
+      "\\bin this modern (era|age|world)\\b"
+     ],
+     "replacement": "Start with your own story, not the world: 'Last March, our school's air sensor read 95.'"
+    },
+    {
+     "id": "c26",
+     "cliche": "at the end of the day",
+     "example": "At the end of the day, what matters is…",
+     "patterns": [
+      "\\bat the end of the day\\b"
+     ],
+     "replacement": "Delete it and state the point."
+    },
+    {
+     "id": "c27",
+     "cliche": "reach my full potential",
+     "example": "…to reach my full potential.",
+     "patterns": [
+      "\\b(reach|fulfil|fulfill|achieve) (my|her|your) (full )?potential\\b"
+     ],
+     "replacement": "Name the skill you want to build: 'learn to read a balance sheet quickly.'"
+    },
+    {
+     "id": "c28",
+     "cliche": "I am a perfectionist",
+     "example": "I am a perfectionist.",
+     "patterns": [
+      "\\bperfectionist\\b"
+     ],
+     "replacement": "Describe one standard you set and how you checked it: 'I tested every sensor twice before each reading.'"
+    },
+    {
+     "id": "c29",
+     "cliche": "the dictionary defines…",
+     "example": "The Oxford dictionary defines leadership as…",
+     "patterns": [
+      "\\bdictionary defines\\b",
+      "\\baccording to the dictionary\\b"
+     ],
+     "replacement": "Start with your own moment, not a definition."
+    },
+    {
+     "id": "c30",
+     "cliche": "the rest is history",
+     "example": "…and the rest is history.",
+     "patterns": [
+      "\\bthe rest is history\\b"
+     ],
+     "replacement": "End with what you will do next: 'Next, I want to study how vets in Taiwan control rabies.'"
+    }
+   ],
+   "text": {
+    "title": "Practice statement: find the 10 clichés",
+    "body": "Ever since I was a child, I have wanted to become a doctor because I want to help people. In Grade 10, I volunteered at a community hospital for one month. It was a life-changing experience, and it was truly eye-opening. I saw nurses work twelve-hour shifts, and I learned so much about how a hospital runs.\n\nI am a hard-working student and a team player. In our science club, I worked with four friends on a project about dengue mosquitoes. We collected water from 20 homes and found mosquito larvae in 7 of them. The project made me step out of my comfort zone, because I had to present our results to the village health volunteers.\n\nI believe your programme is a perfect fit for me. Studying medicine in English will allow me to make a difference in rural Thailand. I will use every chance to learn.",
+    "spans": [
+     [
+      0,
+      24,
+      "c02"
+     ],
+     [
+      77,
+      88,
+      "c09"
+     ],
+     [
+      165,
+      178,
+      "c19"
+     ],
+     [
+      208,
+      219,
+      "c20"
+     ],
+     [
+      265,
+      280,
+      "c21"
+     ],
+     [
+      316,
+      328,
+      "c10"
+     ],
+     [
+      343,
+      354,
+      "c11"
+     ],
+     [
+      535,
+      562,
+      "c15"
+     ],
+     [
+      664,
+      677,
+      "c17"
+     ],
+     [
+      732,
+      749,
+      "c07"
+     ]
+    ]
+   },
+   "feedback": {
+    "found": "Found: {n}/10",
+    "banned": "Your rewrite still contains a banned phrase: {cliche}",
+    "accepted": "Accepted: no banned phrase and a concrete detail.",
+    "needsDetail": "Add a concrete detail: a number, a date, a place or a name."
+   },
+   "rewriteRule": "Accept a rewrite when it matches no banList pattern and contains a digit or a capitalised name/place."
+  },
+  "peerReview": {
+   "title": "Peer review",
+   "lesson": "L12",
+   "intro": "Read your partner's draft once without writing. Then answer the 5 questions. Describe, don't fix.",
+   "questions": [
+    {
+     "id": "pr1",
+     "label": "What I understood",
+     "question": "In one sentence: what does the writer want to study, and why?",
+     "frame": "What I understood was that you want to study … because …",
+     "options": [
+      "Clear in one sentence",
+      "Clear after two readings",
+      "Not clear"
+     ]
+    },
+    {
+     "id": "pr2",
+     "label": "The strongest evidence",
+     "question": "Copy the sentence that proves the most. Why is it convincing?",
+     "frame": "The strongest evidence is … because it has a number / a result / a specific moment.",
+     "options": [
+      "Has a number",
+      "Has a result",
+      "Has a specific moment"
+     ]
+    },
+    {
+     "id": "pr3",
+     "label": "Where a reader from abroad would stop",
+     "question": "Which word, abbreviation or Thai reference would an international reader not understand?",
+     "frame": "A reader from abroad would not know what … means.",
+     "options": [
+      "None found",
+      "One found",
+      "Two or more found"
+     ]
+    },
+    {
+     "id": "pr4",
+     "label": "Why this programme",
+     "question": "Does the writer name a real feature of the programme and link it to something she has done?",
+     "frame": "I was not sure why … links to this programme.",
+     "options": [
+      "Yes, feature + link",
+      "Feature but no link",
+      "No feature named"
+     ]
+    },
+    {
+     "id": "pr5",
+     "label": "One change",
+     "question": "The one change that would help most. Describe it; do not rewrite it. Note any banned cliché you saw.",
+     "frame": "The one change I would suggest is … I noticed the cliché …",
+     "options": [
+      "Order of paragraphs",
+      "More evidence",
+      "Clearer English",
+      "Remove clichés"
+     ]
+    }
+   ],
+   "exportHeading": "Peer-review sheet"
+  },
+  "pitchClock": {
+   "title": "Pitch Clock",
+   "lesson": "L13",
+   "intro": "Pitch for 60 seconds. Your partner rates you for 60 seconds. Then move.",
+   "criteria": [
+    {
+     "key": "clear",
+     "label": "Clear who and why",
+     "levels": [
+      "Listener cannot say who you are or what you want to study",
+      "Who is clear; why is vague",
+      "Who and why are clear",
+      "Who and why are clear and linked to one moment"
+     ]
+    },
+    {
+     "key": "proof",
+     "label": "One proof with a number",
+     "levels": [
+      "No proof",
+      "A claim with no number",
+      "One proof with a number",
+      "One proof with a number and a result the listener remembers"
+     ]
+    },
+    {
+     "key": "delivery",
+     "label": "Delivery",
+     "levels": [
+      "Read from notes; hard to follow",
+      "Some eye contact; pace uneven",
+      "Steady pace, clear voice, eye contact most of the time",
+      "Natural pace, pauses at key points, eye contact throughout, within 60 s"
+     ]
+    }
+   ],
+   "frame": [
+    {
+     "key": "who",
+     "label": "Who",
+     "stem": "I'm …, a Grade 12 student at …, and I'm applying for …",
+     "seconds30": 5,
+     "seconds60": 10
+    },
+    {
+     "key": "spark",
+     "label": "Spark",
+     "stem": "What first made me want to … was … (one moment, with a date or place)",
+     "seconds30": 8,
+     "seconds60": 15
+    },
+    {
+     "key": "proof",
+     "label": "Proof",
+     "stem": "Since then I have … (one activity line with a number and a result)",
+     "seconds30": 10,
+     "seconds60": 20
+    },
+    {
+     "key": "ask",
+     "label": "Ask",
+     "stem": "What sets me apart is … I'd welcome the chance to … (what you want from this listener)",
+     "seconds30": 7,
+     "seconds60": 15
+    }
+   ],
+   "models": [
+    {
+     "label": "Model A · 60 seconds · Veterinary (Praew)",
+     "seconds": 60,
+     "parts": [
+      {
+       "move": "Who",
+       "text": "I'm Praew, a Grade 12 student at Satriwithaya, and I'm applying for an international veterinary programme."
+      },
+      {
+       "move": "Spark",
+       "text": "On my first Saturday at a Bangkok dog shelter, the manager gave me a bucket and forty names. By lunchtime I knew that caring for animals means noticing things: which dog has stopped eating, which one is limping."
+      },
+      {
+       "move": "Proof",
+       "text": "Since then I've volunteered every Saturday for eighteen months and helped prepare thirty-five dogs for adoption. I also made a two-minute rabies video in Thai and English that reached four and a half thousand views in one week."
+      },
+      {
+       "move": "Ask",
+       "text": "What sets me apart is that I connect animal health with public health, what vets call One Health. I'd welcome the chance to tell you how I'd use field study abroad to learn how other countries control rabies."
+      }
+     ]
+    },
+    {
+     "label": "Model B · 30 seconds · Engineering (Earn)",
+     "seconds": 30,
+     "parts": [
+      {
+       "move": "Who",
+       "text": "I'm Earn, and I'm applying for international engineering."
+      },
+      {
+       "move": "Spark",
+       "text": "On a smoke day last January, I wanted to know where the dust at school was worst."
+      },
+      {
+       "move": "Proof",
+       "text": "So I built five low-cost PM2.5 sensors. Six weeks of data showed the gate was worst at 7 a.m., and the school now asks drivers to switch off their engines."
+      },
+      {
+       "move": "Ask",
+       "text": "I'd welcome the chance to learn how engineers abroad design for air and floods."
+      }
+     ]
+    }
+   ]
+  },
+  "questionCards": [
+   {
+    "id": "q01",
+    "type": "Role",
+    "text": "You wrote that you … What exactly did you do yourself, and what did others do?",
+    "listenFor": "Interviewee separates 'I' from 'we'."
+   },
+   {
+    "id": "q02",
+    "type": "Result",
+    "text": "How do you know it worked? What changed because of it?",
+    "listenFor": "A number, a before/after, or an honest 'I don't know yet'."
+   },
+   {
+    "id": "q03",
+    "type": "Evidence",
+    "text": "If we contacted the organiser of …, what would they say about your part?",
+    "listenFor": "Claim matches what a witness would confirm."
+   },
+   {
+    "id": "q04",
+    "type": "Difficulty",
+    "text": "What was the hardest moment in …, and what did you do next?",
+    "listenFor": "A specific problem and an action, not a feeling only."
+   },
+   {
+    "id": "q05",
+    "type": "Reflection",
+    "text": "What would you do differently if you did … again?",
+    "listenFor": "One concrete change; no 'nothing'."
+   },
+   {
+    "id": "q06",
+    "type": "Spark",
+    "text": "Your statement says … first made you interested. What have you done since then to test that interest?",
+    "listenFor": "Steps after the spark (Station 1: Spark · Steps)."
+   },
+   {
+    "id": "q07",
+    "type": "Programme",
+    "text": "Why this programme and not a similar one at another university?",
+    "listenFor": "One feature of this programme linked to her own experience."
+   },
+   {
+    "id": "q08",
+    "type": "Programme",
+    "text": "Which part of the programme are you most looking forward to, and why?",
+    "listenFor": "Names a real feature (from the official page) and a reason."
+   },
+   {
+    "id": "q09",
+    "type": "Plain English",
+    "text": "You used the word … Can you explain it to me as if I were not from your field?",
+    "listenFor": "Short definition, everyday example, no new jargon."
+   },
+   {
+    "id": "q10",
+    "type": "Honesty",
+    "text": "Is there anything in your statement you would describe differently today?",
+    "listenFor": "Honest correction; no exaggeration defended."
+   },
+   {
+    "id": "q11",
+    "type": "Self-awareness",
+    "text": "What is one weakness your statement does not mention, and what are you doing about it?",
+    "listenFor": "A real weakness plus an action."
+   },
+   {
+    "id": "q12",
+    "type": "Future",
+    "text": "Where could this degree take you in ten years, in Thailand or abroad?",
+    "listenFor": "Realistic path linked to a Thai or international need."
+   }
+  ],
+  "exitChecks": {
+   "L09": [
+    {
+     "id": "L09-1",
+     "type": "mcq",
+     "prompt": "Which of these is EVIDENCE, not a claim?",
+     "options": [
+      "I am a natural leader.",
+      "A Thai Red Cross certificate for a 16-hour first-aid course, March 2026",
+      "I care deeply about animals.",
+      "I am very responsible."
+     ],
+     "answer": 1,
+     "explain": "A certificate names the organiser, the hours and the date, so someone else can check it."
+    },
+    {
+     "id": "L09-2",
+     "type": "mcq",
+     "prompt": "What is TCAS Verified meant to do?",
+     "options": [
+      "Design your portfolio for you",
+      "Check activity records with the organisation that ran them",
+      "Translate your portfolio into English",
+      "Score your interview"
+     ],
+     "answer": 1,
+     "explain": "TCAS Verified certifies activities by checking them with the organiser (MHESI/CUPT, 2026)."
+    },
+    {
+     "id": "L09-3",
+     "type": "mcq",
+     "prompt": "'I helped at a dog shelter.' What is missing most?",
+     "options": [
+      "An adjective such as 'amazing'",
+      "Scale: how often, how many, how long",
+      "A quotation",
+      "The word 'passion'"
+     ],
+     "answer": 1,
+     "explain": "Without scale the reader cannot judge the size of the work."
+    },
+    {
+     "id": "L09-4",
+     "type": "cloze",
+     "prompt": "I ___ at the clinic every Saturday since May 2025. (volunteer · 2 words)",
+     "answer": "have volunteered",
+     "explain": "Present perfect for involvement that started in the past and continues now."
+    },
+    {
+     "id": "L09-5",
+     "type": "mcq",
+     "prompt": "Your teacher supervised the project and will confirm your role. Which evidence type is this?",
+     "options": [
+      "Certificate",
+      "Link",
+      "Photo",
+      "Witness"
+     ],
+     "answer": 3,
+     "explain": "A named adult who will confirm your role is a witness."
+    },
+    {
+     "id": "L09-6",
+     "type": "mcq",
+     "prompt": "Thai universities say the portfolio round judges…",
+     "options": [
+      "how beautiful the file looks",
+      "the quality and accuracy of the content",
+      "how many pages you send",
+      "whether a designer made it"
+     ],
+     "answer": 1,
+     "explain": "TCASFolio exists so that design and cost stop mattering; content and accuracy do."
+    }
+   ],
+   "L10": [
+    {
+     "id": "L10-1",
+     "type": "mcq",
+     "prompt": "Which line follows Verb + What + Scale/Result + So what?",
+     "options": [
+      "I was responsible for the library.",
+      "Very active member of the science club.",
+      "Organised 3 book fairs for 400 pupils, which raised 12,000 baht for new books.",
+      "I really enjoyed helping at the library."
+     ],
+     "answer": 2,
+     "explain": "It starts with a verb, has numbers and ends with a result."
+    },
+    {
+     "id": "L10-2",
+     "type": "cloze",
+     "prompt": "Raised 18,400 baht at the stall, ___ in two new shelves for the library. (1 word)",
+     "answer": "resulting",
+     "explain": "'resulting in' introduces the result."
+    },
+    {
+     "id": "L10-3",
+     "type": "mcq",
+     "prompt": "Choose the best verb: '___ 8 Grade 10 students in mathematics twice a week for one term.'",
+     "options": [
+      "Tutored",
+      "Founded",
+      "Calculated",
+      "Programmed"
+     ],
+     "answer": 0,
+     "explain": "Tutored = taught individually or in a small group."
+    },
+    {
+     "id": "L10-4",
+     "type": "mcq",
+     "prompt": "You still run the club. Which sentence is correct?",
+     "options": [
+      "I run the club since 2025.",
+      "I have run the club since 2025.",
+      "I ran the club since 2025.",
+      "I am running the club since 2025."
+     ],
+     "answer": 1,
+     "explain": "Present perfect + since for something that continues now."
+    },
+    {
+     "id": "L10-5",
+     "type": "mcq",
+     "prompt": "'Designed 15 posters for sports day, which the school reused online for 6,000 followers.' Which part is the 'so what'?",
+     "options": [
+      "Designed",
+      "15 posters",
+      "for sports day",
+      "which the school reused online for 6,000 followers"
+     ],
+     "answer": 3,
+     "explain": "The so-what shows why the work mattered to someone else."
+    },
+    {
+     "id": "L10-6",
+     "type": "mcq",
+     "prompt": "Which opening is weakest for an activity line?",
+     "options": [
+      "Led",
+      "Was responsible for",
+      "Designed",
+      "Reduced"
+     ],
+     "answer": 1,
+     "explain": "'Was responsible for' hides what you actually did."
+    }
+   ],
+   "L11": [
+    {
+     "id": "L11-1",
+     "type": "mcq",
+     "prompt": "What is the course order for a personal statement?",
+     "options": [
+      "Why this programme → spark → close → evidence",
+      "Spark → evidence → why this programme → close",
+      "Evidence → close → spark → why this programme",
+      "Close → spark → evidence → why this programme"
+     ],
+     "answer": 1,
+     "explain": "Spark → evidence → why this programme → close."
+    },
+    {
+     "id": "L11-2",
+     "type": "mcq",
+     "prompt": "Which sentence SHOWS rather than tells?",
+     "options": [
+      "I am very caring.",
+      "I have always loved science.",
+      "At 7 a.m. every Saturday for 18 months, I fed 12 dogs at a shelter.",
+      "I am a hard-working person."
+     ],
+     "answer": 2,
+     "explain": "Time, number and action let the reader decide for herself."
+    },
+    {
+     "id": "L11-3",
+     "type": "mcq",
+     "prompt": "Which phrase is on the course cliché ban list?",
+     "options": [
+      "In Grade 9",
+      "Ever since I was a child",
+      "For 18 months",
+      "Every Saturday"
+     ],
+     "answer": 1,
+     "explain": "Replace it with a date and an event."
+    },
+    {
+     "id": "L11-4",
+     "type": "cloze",
+     "prompt": "The course limit for the personal statement is ___ words. (number)",
+     "answer": "500",
+     "explain": "Max. 500 words (syllabus 1.3)."
+    },
+    {
+     "id": "L11-5",
+     "type": "mcq",
+     "prompt": "During the 25-minute timed Draft 1 in class, AI is…",
+     "options": [
+      "allowed for grammar only",
+      "allowed for the first paragraph",
+      "not used at all",
+      "allowed if you write an AI-use statement"
+     ],
+     "answer": 2,
+     "explain": "Draft 1 is your own authenticated writing; AI comes later, as an editor only."
+    },
+    {
+     "id": "L11-6",
+     "type": "mcq",
+     "prompt": "Best replacement for 'This programme will broaden my horizons.'",
+     "options": [
+      "This programme will open my eyes.",
+      "This programme is a perfect fit.",
+      "I want to learn how hospitals abroad train staff to triage patients.",
+      "This programme will help me reach my full potential."
+     ],
+     "answer": 2,
+     "explain": "It names what you want to learn; the others are clichés."
+    }
+   ],
+   "L12": [
+    {
+     "id": "L12-1",
+     "type": "mcq",
+     "prompt": "A reverse outline is…",
+     "options": [
+      "a summary written by AI",
+      "one line per paragraph saying what that paragraph does",
+      "a list of your clichés",
+      "your statement written backwards"
+     ],
+     "answer": 1,
+     "explain": "One line per paragraph shows whether the order works."
+    },
+    {
+     "id": "L12-2",
+     "type": "mcq",
+     "prompt": "In peer review, the reviewer should…",
+     "options": [
+      "rewrite the weak sentences",
+      "describe what she understood and where she stopped",
+      "correct every grammar mistake",
+      "give a score out of 5"
+     ],
+     "answer": 1,
+     "explain": "Describe, don't fix: the writer makes the changes."
+    },
+    {
+     "id": "L12-3",
+     "type": "mcq",
+     "prompt": "Which AI use is allowed for the Module 2 assignment?",
+     "options": [
+      "Ask AI to write your 'Why this programme?' paragraph",
+      "Ask AI to point out unclear sentences in your own paragraph, then decide yourself",
+      "Ask AI to make your statement sound native",
+      "Ask AI to invent an activity"
+     ],
+     "answer": 1,
+     "explain": "AI may check work, never write it (syllabus)."
+    },
+    {
+     "id": "L12-4",
+     "type": "cloze",
+     "prompt": "Reviewer language: 'What I ___ was that you want to study design because…' (1 word, starts with u)",
+     "answer": "understood",
+     "explain": "'What I understood was…' is the first reviewer frame."
+    },
+    {
+     "id": "L12-5",
+     "type": "mcq",
+     "prompt": "Your reverse outline shows paragraph 3 has no evidence. What should you do?",
+     "options": [
+      "Delete paragraph 3",
+      "Add an adjective such as 'amazing'",
+      "Add one specific example with a number and a result",
+      "Move it to the end"
+     ],
+     "answer": 2,
+     "explain": "Evidence = specific example + number + result."
+    },
+    {
+     "id": "L12-6",
+     "type": "mcq",
+     "prompt": "Why is your peer reviewer from another field?",
+     "options": [
+      "To test clarity for a non-expert, international reader",
+      "Because your trio is busy",
+      "To find spelling mistakes",
+      "To check your English accent"
+     ],
+     "answer": 0,
+     "explain": "Clarity for an international reader is a rubric line (1 point)."
+    }
+   ],
+   "L13": [
+    {
+     "id": "L13-1",
+     "type": "mcq",
+     "prompt": "What is the order of the pitch frame?",
+     "options": [
+      "Spark · Who · Ask · Proof",
+      "Who · Spark · Proof · Ask",
+      "Proof · Ask · Who · Spark",
+      "Who · Ask · Spark · Proof"
+     ],
+     "answer": 1,
+     "explain": "Who · Spark · Proof · Ask."
+    },
+    {
+     "id": "L13-2",
+     "type": "mcq",
+     "prompt": "Which is a PROOF line?",
+     "options": [
+      "I'm Fah, and I'm applying for medicine.",
+      "I've always been interested in health.",
+      "Since May 2025 I've volunteered 60 hours at a community hospital desk.",
+      "I'd welcome the chance to talk more."
+     ],
+     "answer": 2,
+     "explain": "Proof = one activity with a number."
+    },
+    {
+     "id": "L13-3",
+     "type": "cloze",
+     "prompt": "Close: 'I'd welcome the ___ to tell you more about the project.' (1 word, starts with c)",
+     "answer": "chance",
+     "explain": "I'd welcome the chance to…"
+    },
+    {
+     "id": "L13-4",
+     "type": "mcq",
+     "prompt": "About how many words fit a calm 60-second pitch?",
+     "options": [
+      "50",
+      "130–150",
+      "300",
+      "500"
+     ],
+     "answer": 1,
+     "explain": "A clear international pace is about 130–150 words per minute."
+    },
+    {
+     "id": "L13-5",
+     "type": "mcq",
+     "prompt": "For the 60-s video, where should you look?",
+     "options": [
+      "At your notes",
+      "At the screen showing your face",
+      "At the camera lens",
+      "At the floor between sentences"
+     ],
+     "answer": 2,
+     "explain": "Looking at the lens reads as eye contact."
+    },
+    {
+     "id": "L13-6",
+     "type": "mcq",
+     "prompt": "Which is NOT a Pitch Clock rating criterion?",
+     "options": [
+      "Clear who and why",
+      "One proof with a number",
+      "Delivery",
+      "A native-like accent"
+     ],
+     "answer": 3,
+     "explain": "The course rewards being understood, not sounding native."
+    }
+   ]
+  }
+ },
+ "uiText": {
+  "app.title": "ELF Studio",
+  "backToRooms": "Rooms",
+  "boot.fail": "The studio content didn't load.",
+  "boot.failHint": "Check the Wi-Fi, then try again.",
+  "boot.retry": "Try again",
+  "ch.allFound": "All {n} found. Now rewrite three.",
+  "ch.banHead": "The ban list ({n})",
+  "ch.check": "Check rewrite",
+  "ch.confirmReveal": "Show the rest? You can't score the ones you haven't found.",
+  "ch.dup": "You already rewrote that one. Choose a different cliché.",
+  "ch.finish": "Save my score",
+  "ch.found": "Found",
+  "ch.foundHead": "Found so far",
+  "ch.instead": "Instead:",
+  "ch.intro": "This model statement hides {n} clichés from the ban list. Tap any word of a cliché to mark it. Wrong taps are counted, so read first.",
+  "ch.misses": "Wrong taps",
+  "ch.needSpan": "Choose which cliché you are replacing.",
+  "ch.noneYet": "Nothing yet. Tap a word in the statement.",
+  "ch.pick": "Choose one you found",
+  "ch.reveal": "Show the ones I missed",
+  "ch.rewriteHead": "Rewrite {n}",
+  "ch.rewriteIntro": "Pick a cliché you found and rewrite its sentence with concrete evidence: what you did, when, how many. The checker rejects anything on the ban list.",
+  "ch.rewrites": "Rewrites",
+  "ch.same": "That is the original wording.",
+  "ch.saved": "Saved: {score}/{max}. See My scores.",
+  "ch.short": "Write a full sentence with evidence (at least {n} words).",
+  "ch.summary": "{f}/{n} found",
+  "ch.tapNote2": "Tap any word of a cliché. Every 3 wrong taps cost 1 point, so read before you tap.",
+  "ch.which": "Cliché {n}",
+  "ch.yourRewrite": "Your rewrite",
+  "copied": "Copied. Paste it into Google Classroom.",
+  "copyFailed": "Copy is blocked here. The text is selected: copy it with your device's menu.",
+  "ea.copy": "Copy as text",
+  "ea.down": "Move row {n} down",
+  "ea.empty": "Empty",
+  "ea.exportHead": "Send it to Classroom",
+  "ea.f.experience": "Experience",
+  "ea.f.link": "Link",
+  "ea.f.role": "Role",
+  "ea.f.scale": "Scale",
+  "ea.f.sowhat": "So what",
+  "ea.f.sowhatC1": "So what? (C1)",
+  "ea.f.sowhatLong": "So what? (C1: the outcome that matters to your programme)",
+  "ea.f.type": "Evidence",
+  "ea.f.when": "When",
+  "ea.flag.noScale": "No scale",
+  "ea.flag.noScaleMsg": "Add a number, duration or size.",
+  "ea.flag.unverifiable": "Unverifiable",
+  "ea.flag.unverifiableMsg": "Nobody could check this yet. Add evidence, or a link for this type.",
+  "ea.flagsLabel": "Flags",
+  "ea.framesHead": "Sentence frames",
+  "ea.intro": "List eight experiences you could use in a portfolio. For each one say how a reader could check it. The flags tell you what an admissions reader would question.",
+  "ea.needsLink": "needs a link",
+  "ea.pickType": "Choose a type",
+  "ea.ready": "Ready",
+  "ea.scalePh": "number, duration or size",
+  "ea.sumFlags": "flags",
+  "ea.sumReady": "ready",
+  "ea.summary": "{ready}/{n} ready",
+  "ea.summaryLong": "{ready} of {n} rows ready · {flags} flags left",
+  "ea.textHead": "Evidence Audit",
+  "ea.textSummary": "{ready} of {n} rows ready · {flags} flags left",
+  "ea.typesHead": "Evidence types",
+  "ea.up": "Move row {n} up",
+  "ex.again": "Try again",
+  "ex.attemptN": "Attempt {n}",
+  "ex.best": "Your best: {s}/{m}",
+  "ex.bestOf": "best {s}/{m} · {n} attempts",
+  "ex.correct": "Correct",
+  "ex.firstTry": "First try",
+  "ex.gap": "Your answer for the gap",
+  "ex.gapPh": "Type the missing word(s)",
+  "ex.intro": "{n} questions on today's lesson. Answer all, then check. You'll see why for anything you miss.",
+  "ex.missing": "{n} unanswered. Answer every question first.",
+  "ex.perfect": "All correct.",
+  "ex.reviewHead": "Review",
+  "ex.setName": "Exit check {L}",
+  "ex.someWrong": "{n} to review below.",
+  "ex.submit": "Check my answers",
+  "ex.summaryFirst": "First try {s}/{m}",
+  "ex.yours": "Your answer",
+  "hint.before": "Two lines, facing each other. Stay line pitches first.",
+  "hint.done": "Check you have a rating code from every partner.",
+  "hint.move": "Move line: one place along. Say hello to your new partner.",
+  "hint.pitchA": "Stay line: pitch for 60 seconds. Move line: listen.",
+  "hint.pitchB": "Move line: pitch for 60 seconds. Stay line: listen.",
+  "hint.rateA": "Move line: rate on three criteria and show your code.",
+  "hint.rateB": "Stay line: rate on three criteria and show your code.",
+  "home.changeSeat": "Change seat",
+  "home.hello": "{name} · G{group} {prof} · seat {seat}",
+  "home.placeholder": "Practice content: the final Module 2 materials will replace it.",
+  "home.title": "ELF Studio",
+  "lesson.10": "Wed 2 Dec · Activity lines and the one-page CV",
+  "lesson.11": "Tue 8 Dec · The personal statement and the cliché ban",
+  "lesson.12": "Wed 9 Dec · Peer review and AI as editor",
+  "lesson.13": "Tue 15 Dec · Elevator pitch and the 60-second video",
+  "lesson.14": "Wed 16 Dec · Portfolio interview and midterm review",
+  "lesson.9": "Tue 1 Dec · Brand audit and the honest claim",
+  "lu.add": "Add",
+  "lu.badBoard": "That isn't a Line Upgrader score code.",
+  "lu.badPeer": "That code doesn't work. Check each letter and try again.",
+  "lu.bank": "Verb bank ({n})",
+  "lu.boardHead": "Trio board",
+  "lu.boardIntro": "Points = lines that pass + peer stars. Add your teammates' (or other trios') score codes to compare on this phone. Read your code to the teacher for the class tally.",
+  "lu.boardLabel": "Score code",
+  "lu.check": "Check line",
+  "lu.confirmFinish": "{n} of {m} lines pass. Finishing locks this round. Finish anyway?",
+  "lu.criterion": "Would an admissions reader believe it?",
+  "lu.doneToast": "All rounds finished: {n}/{max} lines pass.",
+  "lu.empty": "Write your line first.",
+  "lu.finish": "Finish round {n}",
+  "lu.intro": "Rewrite each weak line as Verb + What + Scale/Result + So what. Invent realistic details. Check each line, then finish the round to see the model upgrades.",
+  "lu.lockedMsg": "Round finished. Compare with the models, then move on.",
+  "lu.makeCode": "Make the code",
+  "lu.model": "Model upgrade",
+  "lu.next": "Go to round {n}",
+  "lu.noPeer": "None yet.",
+  "lu.peerAdded": "Rating added: {n}/3 for R{r}·L{l}.",
+  "lu.peerCode": "Peer code",
+  "lu.peerCodeHint": "Read this code to the writer. She types it under 'Ratings you received'.",
+  "lu.peerPts": "Peer",
+  "lu.ph": "Verb + what + number + result",
+  "lu.pickRating": "Choose a rating first.",
+  "lu.rLine": "Line",
+  "lu.rRating": "Rating",
+  "lu.rRound": "Round",
+  "lu.rateHead": "Rate a peer's line",
+  "lu.rateIntro": "Read a classmate's line on her screen. Pick the tag shown above it (for example R2·L3), rate it, and read her the code.",
+  "lu.recvHead": "Ratings you received",
+  "lu.recvLabel": "Peer code",
+  "lu.recvPh": "5-character code",
+  "lu.roundN": "Round {n}",
+  "lu.roundOneNote": "Round 1 lines come from your own field; later rounds mix in the other fields.",
+  "lu.roundScore": "This round",
+  "lu.roundsNav": "Rounds",
+  "lu.scoreCode": "Score code (same as the trio board)",
+  "lu.scoreLine": "{p}/{max} lines pass · {peer} peer stars · {n}/{r} rounds finished",
+  "lu.selfPeer": "That's your own code. A classmate rates your line.",
+  "lu.send": "Send my updated score",
+  "lu.sent": "Saved to My scores with code {code}.",
+  "lu.slot.cliche": "No cliché",
+  "lu.slot.number": "Number",
+  "lu.slot.result": "Result clause",
+  "lu.slot.verb": "Verb from the bank",
+  "lu.summary": "{n}/{r} rounds · {p} pass",
+  "lu.tip.c1": "C1 challenge: round {r} lines stay at 18 words or fewer ({n} now).",
+  "lu.tip.cliche": "Remove the cliché: {list}. Say what you did instead.",
+  "lu.tip.long": "Keep it to {m} words or fewer ({n} now).",
+  "lu.tip.short": "Write a full line of at least four words.",
+  "lu.total": "Total",
+  "lu.words": "{n} words",
+  "lu.youWrote": "(You wrote '{w}'.)",
+  "lu.yourLine": "Your upgraded line",
+  "lu.yourScoreCode": "Your score code (updates as you work)",
+  "module.1": "Module 1 · MMI",
+  "module.2": "Module 2 · Personal brand",
+  "module.3": "Module 3 · Speaking the profession",
+  "module.4": "Module 4 · Media, data and AI",
+  "nav.rooms": "Rooms",
+  "nav.scores": "My scores",
+  "nav.setup": "Set up",
+  "nav.teacher": "Teacher",
+  "nav.theme": "Theme: {mode}",
+  "pc.add": "Add",
+  "pc.added": "Rating added: {total}/12 from rotation {rot}.",
+  "pc.badCode": "That rating code doesn't work. Check each letter and try again.",
+  "pc.badSession": "That isn't a Pitch Clock code. It looks like 1015P: four digits and P.",
+  "pc.codeLabel": "Session code from the projector",
+  "pc.dupCode": "You already added that code.",
+  "pc.frameHead": "Pitch frame",
+  "pc.join": "Join",
+  "pc.joined": "Session {code} · {n} rotations",
+  "pc.leave": "Leave session",
+  "pc.lineLabel": "Your line",
+  "pc.make": "Make the rating code",
+  "pc.modelsHead": "Model pitches ({n})",
+  "pc.move": "Move line",
+  "pc.needAll": "Rate all three criteria first.",
+  "pc.needSetup": "Set up first, then open the link again.",
+  "pc.noneYet": "None yet. After each rotation your partner gives you a code.",
+  "pc.pick": "Tap 1–4.",
+  "pc.practice": "Practice (no session)",
+  "pc.practiceDone": "Practice finished",
+  "pc.practicePitch": "Pitch",
+  "pc.practiceRate": "Rating",
+  "pc.qrTitle": "QR code for rating {code}",
+  "pc.rateHead": "Rate your partner",
+  "pc.ready": "Ready",
+  "pc.recvHead": "Codes you received ({n})",
+  "pc.recvLabel": "Partner's rating code",
+  "pc.replaced": "Rating replaced: {total}/12 from rotation {rot} (one code per partner per rotation).",
+  "pc.restart": "Restart practice",
+  "pc.rotOf": "Rotation {r} of {n}",
+  "pc.rotShort": "rot. {n}",
+  "pc.rotation": "Rotation",
+  "pc.scoreLine": "{n} ratings · best {best}/12",
+  "pc.secs": "~{n} s",
+  "pc.selfCode": "That's a code you made. Your partner's code goes here.",
+  "pc.showPartner": "Show your partner. She scans the QR with her camera or types the code.",
+  "pc.start": "Start practice",
+  "pc.stay": "Stay line (pitches first)",
+  "pc.summary": "{n} ratings",
+  "pc.task.before": "The session starts at {time}. Stand in your line.",
+  "pc.task.done": "All rotations finished. Check you have a code for every rotation.",
+  "pc.task.idle": "Practice: press Start, pitch for 60 seconds, then your partner rates you.",
+  "pc.task.listen": "Listen to your partner's pitch. Rate her when the clock says so.",
+  "pc.task.move": "Move line: step one place to your next partner.",
+  "pc.task.pitch": "Pitch now: Who · Spark · Proof · Ask.",
+  "pc.task.practiceDone": "Done. Add your partner's code below.",
+  "pc.task.practiceRate": "Your partner rates you now and gives you a code.",
+  "pc.task.rate": "Rate your partner below, then show her the code.",
+  "pc.task.stay": "Stay where you are. Your next partner is coming.",
+  "pc.task.wait": "Your partner is rating you. Type her code below.",
+  "pc.youGave": "You gave {a} + {b} + {c} = {total}/12 (rotation {rot}).",
+  "phase.before": "Starts in",
+  "phase.done": "Session complete",
+  "phase.idle": "Ready",
+  "phase.move": "Move one place",
+  "phase.pitchA": "Stay line pitches",
+  "phase.pitchB": "Move line pitches",
+  "phase.rateA": "Move line rates",
+  "phase.rateB": "Stay line rates",
+  "pr.answer": "Your answer",
+  "pr.confirmNew": "Clear this sheet and start again?",
+  "pr.copy": "Copy the sheet as text",
+  "pr.intro": "You are the reader from another field. Describe what you understood; don't fix the writing. The writer listens and submits this sheet with her assignment.",
+  "pr.new": "Start a new sheet",
+  "pr.progress": "{n} of {m} answered",
+  "pr.reviewer": "Reviewer",
+  "pr.scoreLine": "Sheet for {w}: {n} of {m} questions answered",
+  "pr.summary": "{n}/{m} answered",
+  "pr.textHead": "Peer-review sheet",
+  "pr.writer": "Writer",
+  "pr.writerField": "Writer's field",
+  "pr.writerName": "Writer's name",
+  "qc.all": "All {n} cards",
+  "qc.count": "Card {i} of {n}",
+  "qc.followUp": "Follow-up:",
+  "qc.intro": "Interviewer: pick a card, then point it at one claim in your partner's statement: 'You wrote that…'. Mark it used so you don't ask it twice.",
+  "qc.listenFor": "Listen for:",
+  "qc.next": "Next card",
+  "qc.prev": "Previous",
+  "qc.reset": "Clear used marks",
+  "qc.shuffle": "Shuffle",
+  "qc.summary": "{u}/{n} used",
+  "qc.unuse": "Mark not used",
+  "qc.use": "Mark used",
+  "qc.usedCount": "{u} of {n} used",
+  "qc.usedTag": "Used",
+  "room.clicheHunter.blurb": "Find the ten clichés in a model statement, then rewrite three.",
+  "room.clicheHunter.title": "Cliché Hunter",
+  "room.evidenceAudit.blurb": "Eight experiences, the proof for each, and the flags a reader would raise.",
+  "room.evidenceAudit.title": "Evidence Audit",
+  "room.exitChecks.blurb": "Six quick questions. Score and review.",
+  "room.exitChecks.cardTitle": "Exit check",
+  "room.exitChecks.title": "Exit checks",
+  "room.lineUpgrader.blurb": "Four rounds of weak lines to rewrite. Verb, number, result.",
+  "room.lineUpgrader.title": "Line Upgrader",
+  "room.peerReview.blurb": "Five questions about a classmate's draft, sent as text.",
+  "room.peerReview.title": "Peer-review form",
+  "room.pitchClock.blurb": "Speed-networking: 60-second pitches, partner ratings by code.",
+  "room.pitchClock.title": "Pitch Clock",
+  "room.questionCards.blurb": "Twelve interviewer questions to point at a statement.",
+  "room.questionCards.title": "Portfolio question cards",
+  "scores.attempts": "{n} saved",
+  "scores.best": "Best",
+  "scores.copy": "Copy my scores as text",
+  "scores.empty": "Nothing yet. Open a room from the Rooms tab and your scores will appear here.",
+  "scores.goRooms": "Open the rooms",
+  "scores.intro": "Best score in each room and the codes to show your teacher. Codes prove a result without an account.",
+  "scores.textHead": "ELF Studio · My scores",
+  "scores.title": "My scores",
+  "setup.first": "Set up once, then the rooms open.",
+  "setup.group": "Group",
+  "setup.intro": "Enter the same nickname, group and seat as in the MMI app. Your work stays on this device.",
+  "setup.name": "Nickname",
+  "setup.needGroup": "Choose your group.",
+  "setup.needName": "Type a nickname.",
+  "setup.needSeat": "Choose your seat letter.",
+  "setup.pickGroup": "Choose your group",
+  "setup.save": "Save and open the rooms",
+  "setup.seat": "Seat",
+  "setup.seatHint": "Your seat letter today. It moves one letter each lesson.",
+  "setup.title": "Who's in the studio?",
+  "skip": "Skip to content",
+  "tally.members": "{n}/3 seats",
+  "teacher.allDone": "All rotations finished",
+  "teacher.checkBad": "Not a valid ELF Studio code. Check for a typo.",
+  "teacher.checkBtn": "Check",
+  "teacher.checkHead": "Check a code",
+  "teacher.checkLabel": "Code",
+  "teacher.checkPeer": "Peer line rating · {rating}/3 for R{round}·L{line} · from G{group} seat {seat}",
+  "teacher.checkRating": "Pitch rating · {a}/{b}/{c} = {total}/12 · rotation {rot} · from G{group} seat {seat}",
+  "teacher.checkResult2": "Result · {room} · L{lesson} · {score}/{max} · {extra} · G{group} seat {seat}",
+  "teacher.code": "Session code",
+  "teacher.extraAttempt": "attempt {n}",
+  "teacher.extraMisses": "{n} wrong taps",
+  "teacher.extraPeer": "+{n} peer stars",
+  "teacher.full": "Full screen",
+  "teacher.gbOff": "Gradebook is off. Set GRADEBOOK_URL in index.html to collect results in a Google Sheet (README).",
+  "teacher.gbOn": "Gradebook is on: auto-marked rooms send each result to your sheet.",
+  "teacher.intro": "Run the Pitch Clock from the projector and collect Line Upgrader scores. Later rooms' clocks use the same session code.",
+  "teacher.pitchHead": "Pitch Clock session",
+  "teacher.projector": "Projector view",
+  "teacher.qrTitle": "QR code to join session {code}",
+  "teacher.rotOf": "Rotation {r} of {n}",
+  "teacher.rotations": "Rotations",
+  "teacher.scan": "Scan to join",
+  "teacher.soon": "Start in 1 minute",
+  "teacher.soundOff": "Sound off",
+  "teacher.soundOn": "Sound on",
+  "teacher.start": "Start time",
+  "teacher.tallyAdd": "Add codes",
+  "teacher.tallyClear": "Clear the tally",
+  "teacher.tallyCodes": "Score codes",
+  "teacher.tallyEmpty": "No codes yet.",
+  "teacher.tallyHead": "Line Upgrader tally",
+  "teacher.tallyIntro": "Type or paste students' Line Upgrader score codes. The best code per seat counts; trios rank by points.",
+  "teacher.tallyResult": "{ok} added, {bad} not recognised.",
+  "teacher.timing": "Each rotation: {p} s pitch + {r} s rating for each line, then {m} s to move = {len}. {n} rotations end at {end}.",
+  "teacher.title": "Teacher",
+  "theme.auto": "follows your device",
+  "theme.dark": "dark",
+  "theme.light": "light",
+  "yourCode": "Your result code",
+  "ch.tapNote": "Tap any word of a cliché. Wrong taps are counted.",
+  "ex.summary": "Best {s}/{m}",
+  "home.change": "Change",
+  "teacher.checkResult": "Result · {room} · L{lesson} · {score}/{max} (+{bonus} peer) · G{group} seat {seat}",
+  "ch.ok": "Accepted: no banned phrase.",
+  "ch.stillBanned": "Still on the ban list: {list}.",
+  "lu.pass": "Passes the check.",
+  "lu.tip.number": "Add a number or duration: 30 students, 6 months, every Saturday.",
+  "lu.tip.result": "Add a result: …, which / resulting in / so that / helping…",
+  "lu.tip.verb": "Start with an action verb from the bank (you wrote '{w}').",
+  "roomNames": {
+   "evidenceAudit": "Evidence Audit",
+   "lineUpgrader": "Line Upgrader",
+   "clicheHunter": "Cliché Hunter",
+   "peerReview": "Peer review",
+   "pitchClock": "Pitch Clock",
+   "questionCards": "Portfolio question cards",
+   "exitChecks": "Exit check"
+  },
+  "illustrative": "All students, numbers and organisations in examples are invented and illustrative.",
+  "exitCheckIntro": "6 questions · about 3 minutes",
+  "exitCheckDone": "Score: {score}/{max}",
+  "aiRule": "AI may check your work, never write it."
+ }
+}
